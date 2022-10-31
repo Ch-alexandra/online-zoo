@@ -67,6 +67,12 @@ header {
     margin: 0 29px;
 }
 
+.menu-active {
+    background: -webkit-linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* Style the links inside the navigation bar */
 .header-menu a {
     font-family: 'Roboto';
@@ -80,9 +86,20 @@ header {
 
 /* Change the color of links on hover */
 .header-menu a:hover {
-    color: rgb(255, 115, 0);
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 #header-copyright {
     margin-left: auto;
+}
+
+#header-copyright:hover {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
 }

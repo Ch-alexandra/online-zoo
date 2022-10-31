@@ -20,15 +20,15 @@
         </div>
         <nav class="header-menu">
             <ul>
-                <li><a href="#">About</a></li>
+                <li><a class="menu-active" href="index.html">About</a></li>
                 <li><a href="#">Map</a></li>
                 <li><a href="#">Zoos</a></li>
-                <li><a href="#">Donate</a></li>
+                <li><a href="donate.html">Donate</a></li>
                 <li><a href="#">Contact us</a></li>
             </ul>
         </nav>
-
-        <p id="header-copyright">Designed by ©</p>
+        <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" id="header-copyright">Designed by
+            ©</a>
     </header>
     <main>
         <section id="watch-online">
@@ -38,7 +38,7 @@
                     <span id="text-orange">FAVORITE</span>
                     ANIMAL ONLINE
             </div>
-            <a href="#" class="btn-primary" id="watch-online-button">WATCH ONLINE</a>
+            <a href="#" class="btn btn-rounded" id="watch-online-button">WATCH ONLINE</a>
         </section>
 
         <section id="backstage">
@@ -60,13 +60,19 @@
 
         <section id="animals">
             <div id="animals-scroll-box">
-                <a href="#" class="arrow-button"><img src="../../assets/images/arrow-left.svg"></a>
+                <a href="#" class="btn btn-round"><img src="../../assets/images/arrow-left.svg"></a>
                 <div id="animals-grid">
                     <div class="animal-card">
-                        <img src="../../assets/images/animals/animal 1.png">
+                        <div class="animal-card-image-box">
+                            <img class="animal-card-image" src="../../assets/images/animals/animal 1.png"></img>
+                            <div class="animal-card-hover-box">
+                                <h3 class="animal-card-hover-title">GIANT PANDAS</h3>
+                                <h2 class="animal-card-hover-description">Native to Southwest China</p>
+                            </div>
+                        </div>
                         <div class="animal-card-description">
                             <div class="animal-card-description-text">
-                                <h3 class="animal-header">GIANT PANDAS</h3>
+                                <h3 class="animal-title">GIANT PANDAS</h3>
                                 <p class="animal-description">Native to Southwest China</p>
                             </div>
                             <img class="animal-card-description-image" src="../../assets/images/banana-bamboo_icon.svg">
@@ -74,10 +80,16 @@
                     </div>
 
                     <div class="animal-card">
-                        <img src="../../assets/images/animals/animal 2.png">
+                        <div class="animal-card-image-box">
+                            <img class="animal-card-image" src="../../assets/images/animals/animal 2.png"></img>
+                            <div class="animal-card-hover-box">
+                                <h3 class="animal-card-hover-title">EAGLES</h3>
+                                <h2 class="animal-card-hover-description">Native to South America</p>
+                            </div>
+                        </div>
                         <div class="animal-card-description">
                             <div class="animal-card-description-text">
-                                <h3 class="animal-header">EAGLES</h3>
+                                <h3 class="animal-title">EAGLES</h3>
                                 <p class="animal-description">Native to South America</p>
                             </div>
                             <img class="animal-card-description-image" src="../../assets/images/meet-fish_icon.svg">
@@ -85,10 +97,16 @@
                     </div>
 
                     <div class="animal-card">
-                        <img src="../../assets/images/animals/animal 3.png">
+                        <div class="animal-card-image-box">
+                            <img class="animal-card-image" src="../../assets/images/animals/animal 3.png"></img>
+                            <div class="animal-card-hover-box">
+                                <h3 class="animal-card-hover-title">GORILLAS</h3>
+                                <h2 class="animal-card-hover-description">Native to Congo</p>
+                            </div>
+                        </div>
                         <div class="animal-card-description">
                             <div class="animal-card-description-text">
-                                <h3 class="animal-header">GORILLAS</h3>
+                                <h3 class="animal-title">GORILLAS</h3>
                                 <p class="animal-description">Native to Congo</p>
                             </div>
                             <img class="animal-card-description-image" src="../../assets/images/banana-bamboo_icon.svg">
@@ -96,10 +114,16 @@
                     </div>
 
                     <div class="animal-card">
-                        <img src="../../assets/images/animals/animal 4.png">
+                        <div class="animal-card-image-box">
+                            <img class="animal-card-image" src="../../assets/images/animals/animal 4.png"></img>
+                            <div class="animal-card-hover-box">
+                                <h3 class="animal-card-hover-title">TWO-TOED SLOTH</h3>
+                                <h2 class="animal-card-hover-description">Mesoamerica, South America</p>
+                            </div>
+                        </div>
                         <div class="animal-card-description">
                             <div class="animal-card-description-text">
-                                <h3 class="animal-header">TWO-TOED SLOTH</h3>
+                                <h3 class="animal-title">TWO-TOED SLOTH</h3>
                                 <p class="animal-description">Mesoamerica, South America</p>
                             </div>
                             <img class="animal-card-description-image" src="../../assets/images/banana-bamboo_icon.svg">
@@ -107,10 +131,16 @@
                     </div>
 
                     <div class="animal-card">
-                        <img src="../../assets/images/animals/animal 5.png">
+                        <div class="animal-card-image-box">
+                            <img class="animal-card-image" src="../../assets/images/animals/animal 5.png"></img>
+                            <div class="animal-card-hover-box">
+                                <h3 class="animal-card-hover-title">CHEETAHS</h3>
+                                <h2 class="animal-card-hover-description">Native to Africa</p>
+                            </div>
+                        </div>
                         <div class="animal-card-description">
                             <div class="animal-card-description-text">
-                                <h3 class="animal-header">CHEETAHS</h3>
+                                <h3 class="animal-title">CHEETAHS</h3>
                                 <p class="animal-description">Native to Africa</p>
                             </div>
                             <img class="animal-card-description-image" src="../../assets/images/meet-fish_icon.svg">
@@ -118,21 +148,27 @@
                     </div>
 
                     <div class="animal-card">
-                        <img src="../../assets/images/animals/animal 6.png">
+                        <div class="animal-card-image-box">
+                            <img class="animal-card-image" src="../../assets/images/animals/animal 6.png"></img>
+                            <div class="animal-card-hover-box">
+                                <h3 class="animal-card-hover-title">PENGUINS</h3>
+                                <h2 class="animal-card-hover-description">Native to Antarctica</p>
+                            </div>
+                        </div>
                         <div class="animal-card-description">
                             <div class="animal-card-description-text">
-                                <h3 class="animal-header">PENGUINS</h3>
+                                <h3 class="animal-title">PENGUINS</h3>
                                 <p class="animal-description">Native to Antarctica</p>
                             </div>
                             <img class="animal-card-description-image" src="../../assets/images/meet-fish_icon.svg">
                         </div>
                     </div>
                 </div>
-                <a href="#" class="arrow-button"><img src="../../assets/images/arrow-right.svg"></a>
+                <a href="#" class="btn btn-round"><img src="../../assets/images/arrow-right.svg"></a>
             </div>
 
             <div id="animal-btn-box">
-                <a href="#" id="choose-favorite-button" class="btn-primary">CHOOSE YOUR FAVOURITE</a>
+                <a href="#" id="choose-favorite-button" class="btn btn-rounded">CHOOSE YOUR FAVORITE</a>
             </div>
 
             <img id="animals-left-img" src="../../assets/images/palm_foto.png">
@@ -148,7 +184,8 @@
                     <p id="pick-friend-covid">During a time when the COVID-19 epidemic is touching all of our lives,
                         we’re proud and glad that people around the world find joy in PetStory.</p>
                     <p id="pick-friend-description">Even though the zoo has reopened, we need you now more than ever to
-                        help us deal with these problems. Please consider a gift to our Emergency Support Fund.</p>
+                        help us deal with these problems. Please consider a gift to our <a href="donate.html"
+                            class="color-darkgray">Emergency Support Fund.</a></p>
                     <span id="pick-friend-underline"></span>
                 </div>
                 <h3 id="pick-friend-how-it-works">How it works</h3>
@@ -168,7 +205,7 @@
                         <p class="how-it-works-item-description">Your favourite animal gets delicious dish</p>
                     </div>
                 </div>
-                <a href="#" id="feed-friend-now" class="btn-primary">FEED A FRIEND NOW</a>
+                <a href="donate.html" id="feed-friend-now" class="btn btn-rounded">FEED A FRIEND NOW</a>
             </div>
         </section>
 
@@ -312,12 +349,11 @@
                 </div>
                 <div id="testimotionals-progressbar-box">
                     <div id="testimotionals-progressbar-border">
-                        <span id="testimotionals-progressbar-progress"></span>
-                        <span id="testimotionals-progressbar"></span>
+                        <input id="testimotionals-progressbar" type="range" value="0"></input>
                     </div>
                 </div>
                 <div id="testimotionals-button-box">
-                    <a href="#" class="btn-secondary">LEAVE FEEDBACK</a>
+                    <a href="index.html" class="btn btn-squared">LEAVE FEEDBACK</a>
                 </div>
                 <img id="testimotionals-right-img" src="../../assets/images/leaf_foto.png">
             </div>
@@ -328,47 +364,47 @@
                     <div id="header-logo">
                         <a href="index.html"><img src="../../assets/images/bamboo.svg" alt="Bamboo logo"
                                 id="header-logo-img">
-                            <h1 id="logo-text">PetStory online</h1>
+                            <p id="logo-text">PetStory online</p>
                         </a>
                     </div>
-                    <a href="#" id="donate-button" class="btn-secondary">DONATE FOR VOLUNTEERS</a>
+                    <a href="donate.html" id="donate-button" class="btn btn-squared">DONATE FOR VOLUNTEERS</a>
                     <nav id="socials">
-                        <a href="#" class="social-link-box">
+                        <a href="https://www.facebook.com/" class="social-link-box">
                             <img class="social-icon" src="../../assets/images/facebook.svg">
                             <p class="social-text">Facebook</p>
                         </a>
-                        <a href="#" class="social-link-box">
+                        <a href="https://www.twitter.com/" class="social-link-box">
                             <img class="social-icon" src="../../assets/images/twitter.svg">
                             <p class="social-text">Twitter</p>
                         </a>
-                        <a href="#" class="social-link-box">
+                        <a href="https://www.instagram.com/" class="social-link-box">
                             <img class="social-icon" src="../../assets/images/instagram.svg">
                             <p class="social-text">Instagram</p>
                         </a>
-                        <a href="#" class="social-link-box">
+                        <a href="https://www.youtube.com/" class="social-link-box">
                             <img class="social-icon" src="../../assets/images/youtube.svg">
                             <p class="social-text">YouTube</p>
                         </a>
                     </nav>
                 </div>
                 <nav id="footer-center-column">
-                    <a href="#" class="footer-nav-item">About</a>
+                    <a href="#" class="footer-nav-item menu-active">About</a>
                     <a href="#" class="footer-nav-item">Map</a>
                     <a href="#" class="footer-nav-item">Zoos</a>
                     <a href="#" class="footer-nav-item">Contact us</a>
                 </nav>
                 <div id="footer-right-column">
                     <p id="subscribe">Subscribe to our news</p>
-                    <div id="form">
-                        <p id="email">Enter your email</p>
-                        <button id="submit">Submit</button>
-                    </div>
+                    <form id="form">
+                        <input id="email" type="email" placeholder="Enter your email" value="" required></input>
+                        <input type="submit" class="btn-submit" value="Submit"></input>
                 </div>
+            </div>
 
-                <div id="footer-copyright">
-                    <p class="footer-copyright-text">Designed by Alisa Samborskaya</p>
-                    <p class="footer-copyright-text">©RSSchool & ©Yem Digital 2021</p>
-                </div>
+            <div id="footer-copyright">
+                <p class="footer-copyright-text">Designed by Alisa Samborskaya</p>
+                <p class="footer-copyright-text">©RSSchool & ©Yem Digital 2021</p>
+            </div>
             </div>
         </footer>
     </main>
