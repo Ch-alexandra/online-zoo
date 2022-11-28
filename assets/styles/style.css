@@ -20,8 +20,8 @@ header {
     align-items: center;
     display: flex;
     position: relative;
-    width: 82px !important;
-    height: 52px !important;
+    width: 82px;
+    height: 52px;
     border-radius: 2px;
     text-align: center;
     box-sizing: border-box;
@@ -268,7 +268,8 @@ footer {
     border: 0.7px solid #4B9200;
 }
 
-#footer-form:invalid #email:not(:placeholder-shown), #footer-form:invalid #email:focus-visible {
+#footer-form:invalid #email:not(:placeholder-shown),
+#footer-form:invalid #email:focus-visible {
     border: 0.7px solid #D31414;
 }
 
@@ -285,7 +286,8 @@ footer {
     border-radius: 5px;
 }
 
-.btn-submit:active, #footer-form:valid .btn-submit:active {
+.btn-submit:active,
+#footer-form:valid .btn-submit:active {
     color: #4B9200;
     border: 2px solid #4B9200;
 }
@@ -295,7 +297,7 @@ footer {
     border: 2px solid black;
 }
 
-#footer-form:invalid :focus-visible + .btn-submit {
+#footer-form:invalid :focus-visible+.btn-submit {
     color: #D31414;
     border: 2px solid #D31414;
 }
@@ -311,4 +313,69 @@ footer {
     font-weight: 100;
     font-size: 16px;
     line-height: 130%;
+}
+
+
+@media (max-width: 1000px) {
+    body {
+        width: 1000px;
+    }
+
+    header {
+        padding: 14px 30px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .header-menu ul {
+        margin-left: 38px;
+    }
+
+    .header-menu li {
+        margin: 0 24px;
+    }
+
+}
+
+@media (max-width: 640px) {
+    body {
+        width: 640px;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        box-sizing: border-box;
+    }
+
+    header {
+        height: 30px;
+        padding: 2.29px 20.07px
+    }
+
+    #header-logo {
+        border: none;
+        width: 46.86px;
+        height: 29.03px;
+        left: 0px;
+        align-items: flex-start;
+    }
+
+    #logo-text {
+        font-size: 12.2899px;
+    }
+
+    #header-logo-img {
+        width: 10px;
+        height: 16px;
+        left: 5px;
+        top: 13.99px;
+    }
+
+    .header-menu ul {
+        display: none;
+    }
+
+
+    #header-copyright {
+        display:none;
+    }
+
 }

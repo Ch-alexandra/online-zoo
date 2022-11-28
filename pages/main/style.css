@@ -520,3 +520,81 @@ input {
     bottom: -32px;
     z-index: -1;
 }
+
+@media (max-width: 1000px) {
+    
+}
+
+@media (max-width: 640px) {
+    #watch-online {
+        position: relative;
+        height: 339px;
+        background-image: url("../../assets/images/Giant\ Panda640.png");
+        background-position: bottom;
+    }
+
+    #watch-online-circle {
+        width: 237.6px;
+        height: 237.6px;
+        left: calc(50% - 237.6px/2 + 130.44px);
+        top: 10.23px;
+    }
+
+    #watch-online-text {
+        width: 255.64px;
+        height: 204.38px;
+        left: calc(50% - 255.64px/2 + 176.76px);
+        top: 48.04px;
+
+    }
+
+    #watch-online-text>h2 {
+        font-size: 54.2894px;
+    }
+
+    #watch-online-button {
+        left: calc(50% - 296px/2 - 151px);
+        top: 245px;
+    }
+
+    #granddad {
+        display: none;
+    }
+
+    #backstage-text-box {
+        margin-left: 0px;
+        width: 500px;
+    }
+
+    #backstage-box {
+        padding-left: 23px;
+        padding-right: 125px;
+        padding-top: 45px;
+        margin-top: 12px;
+    }
+
+    #backstage-description {
+        padding-top: 23px;
+        padding-right: 25px;
+        margin: 0 0 0 -2px;
+    }
+
+
+    #backstage-text-box>h3 {
+        margin-top: 30px;
+    }
+
+    #backstage-text {
+        margin-top: 18px;
+        margin-left: -3px;
+    }
+    #backstage-flower {
+        right: 0;
+        left: unset;
+        width: 132px;
+        height: 484px;
+        top: -20px;
+        object-fit: cover;
+        object-position: left;
+    }
+}
