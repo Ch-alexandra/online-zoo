@@ -6,15 +6,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
     <link href="../../assets/styles/style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="../../assets/images/icon.png">
 </head>
 
 <body>
     <header>
         <div id="header-logo">
-            <a href="../../pages/main/index.html"><img src="../../assets/images/bamboo.svg" alt="Bamboo logo" id="header-logo-img">
+            <a href="../../pages/main/index.html"><img src="../../assets/images/bamboo.svg" alt="Bamboo logo"
+                    id="header-logo-img">
                 <h1 id="logo-text">PetStory online</h1>
             </a>
         </div>
@@ -29,16 +30,21 @@
         </nav>
         <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" id="header-copyright">Designed by
             ©</a>
+        <div class="burger">
+            <div class="burger-span"></div>
+            <div class="burger-span"></div>
+            <div class="burger-span"></div>
+        </div>
     </header>
     <main>
         <section id="watch-online">
             <span id="watch-online-circle"></span>
             <div id="watch-online-text">
-                <h2>PLEASE,GIVE ME
-                    <span id="text-orange">SOME DAYS</span>
-                    TO FINISH 
+                <h2>WATCH YOUR
+                    <span id="text-orange">FAVORITE</span>
+                    ANIMAL ONLINE
             </div>
-            <a href="#" class="btn btn-rounded" id="watch-online-button">MY WORK</a>
+            <a href="#" class="btn btn-rounded" id="watch-online-button">WATCH ONLINE</a>
         </section>
 
         <section id="backstage">
@@ -46,7 +52,8 @@
                 <img id="granddad" src="../../assets/images/bamboo-cap.png">
                 <div id="backstage-text-box">
                     <h2>The Backstage of the Wilderness World.</h2>
-                    <p id="backstage-description">The site was founded on the basis of a volunteer movement to protect and
+                    <p id="backstage-description">The site was founded on the basis of a volunteer movement to protect
+                        and
                         care for animals.</p>
                     <h3>How it works</h3>
                     <p id="backstage-text">The main goal is to help the animals, as well as the nature reserves and zoos
@@ -55,12 +62,13 @@
                         have a total of more than 1,500 mammals and reptiles.</p>
                 </div>
             </div>
-            <img id="backstage-flower" src="../../assets/images/flower_foto1.png">
+            <div id="backstage-flower"></div>
         </section>
 
         <section id="animals">
             <div id="animals-scroll-box">
-                <a href="#" class="btn btn-round"><img src="../../assets/images/arrow-left.svg"></a>
+                <a href="#" class="btn btn-round" id="animals-left-btn"><img
+                        src="../../assets/images/arrow-left.svg"></a>
                 <div id="animals-grid">
                     <div class="animal-card">
                         <div class="animal-card-image-box">
@@ -98,6 +106,23 @@
 
                     <div class="animal-card">
                         <div class="animal-card-image-box">
+                            <img class="animal-card-image" src="../../assets/images/animals/animal 5.png"></img>
+                            <div class="animal-card-hover-box">
+                                <h3 class="animal-card-hover-title">CHEETAHS</h3>
+                                <h2 class="animal-card-hover-description">Native to Africa</p>
+                            </div>
+                        </div>
+                        <div class="animal-card-description">
+                            <div class="animal-card-description-text">
+                                <h3 class="animal-title">CHEETAHS</h3>
+                                <p class="animal-description">Native to Africa</p>
+                            </div>
+                            <img class="animal-card-description-image" src="../../assets/images/meet-fish_icon.svg">
+                        </div>
+                    </div>
+
+                    <div class="animal-card">
+                        <div class="animal-card-image-box">
                             <img class="animal-card-image" src="../../assets/images/animals/animal 3.png"></img>
                             <div class="animal-card-hover-box">
                                 <h3 class="animal-card-hover-title">GORILLAS</h3>
@@ -115,33 +140,17 @@
 
                     <div class="animal-card">
                         <div class="animal-card-image-box">
-                            <img class="animal-card-image" src="../../assets/images/animals/animal 4.png"></img>
+                            <img class="animal-card-image" id="rectangle"
+                                src="../../assets/images/animals/Rectangle.jpeg"></img>
                             <div class="animal-card-hover-box">
-                                <h3 class="animal-card-hover-title">TWO-TOED SLOTH</h3>
-                                <h2 class="animal-card-hover-description">Mesoamerica, South America</p>
+                                <h3 class="animal-card-hover-title">ALLIGATORS</h3>
+                                <h2 class="animal-card-hover-description">Native to Southeastern U. S.</p>
                             </div>
                         </div>
                         <div class="animal-card-description">
                             <div class="animal-card-description-text">
-                                <h3 class="animal-title">TWO-TOED SLOTH</h3>
-                                <p class="animal-description">Mesoamerica, South America</p>
-                            </div>
-                            <img class="animal-card-description-image" src="../../assets/images/banana-bamboo_icon.svg">
-                        </div>
-                    </div>
-
-                    <div class="animal-card">
-                        <div class="animal-card-image-box">
-                            <img class="animal-card-image" src="../../assets/images/animals/animal 5.png"></img>
-                            <div class="animal-card-hover-box">
-                                <h3 class="animal-card-hover-title">CHEETAHS</h3>
-                                <h2 class="animal-card-hover-description">Native to Africa</p>
-                            </div>
-                        </div>
-                        <div class="animal-card-description">
-                            <div class="animal-card-description-text">
-                                <h3 class="animal-title">CHEETAHS</h3>
-                                <p class="animal-description">Native to Africa</p>
+                                <h3 class="animal-title">ALLIGATORS</h3>
+                                <p class="animal-description">Native to Southeastern U. S.</p>
                             </div>
                             <img class="animal-card-description-image" src="../../assets/images/meet-fish_icon.svg">
                         </div>
@@ -164,15 +173,16 @@
                         </div>
                     </div>
                 </div>
-                <a href="#" class="btn btn-round"><img src="../../assets/images/arrow-right.svg"></a>
+                <a href="#" class="btn btn-round" id="animals-right-btn"><img
+                        src="../../assets/images/arrow-right.svg"></a>
             </div>
 
             <div id="animal-btn-box">
                 <a href="#" id="choose-favorite-button" class="btn btn-rounded">CHOOSE YOUR FAVORITE</a>
             </div>
 
-            <img id="animals-left-img" src="../../assets/images/palm_foto.png">
-            <img id="animals-right-img" src="../../assets/images/strelitzia 1.png">
+            <div id="animals-left-img"></div>
+            <div id="animals-right-img"></div>
         </section>
 
         <section id="pick-friend">
@@ -184,8 +194,8 @@
                     <p id="pick-friend-covid">During a time when the COVID-19 epidemic is touching all of our lives,
                         we’re proud and glad that people around the world find joy in PetStory.</p>
                     <p id="pick-friend-description">Even though the zoo has reopened, we need you now more than ever to
-                        help us deal with these problems. Please consider a gift to our <a href="../../pages/donate/index.html"
-                            class="color-darkgray">Emergency Support Fund.</a></p>
+                        help us deal with these problems. Please consider a gift to our <a
+                            href="../../pages/donate/index.html" class="color-darkgray">Emergency Support Fund.</a></p>
                     <span id="pick-friend-underline"></span>
                 </div>
                 <h3 id="pick-friend-how-it-works">How it works</h3>
@@ -194,18 +204,19 @@
                         <img class="how-it-works-item-icon" src="../../assets/images/pay.svg">
                         <p class="how-it-works-item-description">Pay with card</p>
                     </div>
-                    <img class="how-it-works-arrow" src="../../assets/images/how-it-works-arrow.svg"></img>
+                    <div class="how-it-works-arrow"></div>
                     <div class="how-it-works-item-box">
                         <img class="how-it-works-item-icon" src="../../assets/images/zoo.png">
                         <p class="how-it-works-item-description">Payment goes to the zoo</p>
                     </div>
-                    <img class="how-it-works-arrow" src="../../assets/images/how-it-works-arrow.svg"></img>
+                    <div class="how-it-works-arrow"></div>
                     <div class="how-it-works-item-box">
                         <img class="how-it-works-item-icon" src="../../assets/images/monkey.svg">
                         <p class="how-it-works-item-description">Your favourite animal gets delicious dish</p>
                     </div>
                 </div>
-                <a href="../../pages/donate/index.html" id="feed-friend-now" class="btn btn-rounded">FEED A FRIEND NOW</a>
+                <a href="../../pages/donate/index.html" id="feed-friend-now" class="btn btn-rounded">FEED A FRIEND
+                    NOW</a>
             </div>
         </section>
 
@@ -228,18 +239,15 @@
                                     </div>
                                 </div>
                                 <div class="testimotionals-card-content">
-                                    <p>Online zoo is one jf the ways to instill a love for animals.The best online zoo
+                                    <p>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas.
+                                        Online zoo is one jf the ways to instill a love for animals.The best online zoo
                                         I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one
-                                        jf the ways to instill a love for animals.The best online zoo I’ve met. My son
-                                        delighted very much ljves to watch gouillas.
-                                        The best online zoo I’ve met. My son delighted very much ljves to watch
-                                        gouillas. Online zoo is one jf the ways to instill a love for animals.The best
-                                        online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online
-                                        zoo is one jf the ways to instill a love for animals.<br>
+                                        jf the ways to instill a love for animals.<br>
                                         The best online zoo I’ve met. My son delighted very much ljves to watch
                                         gouillas. Online zoo is one jf the ways to instill a love for animals.The best
                                         online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online
                                         zoo is one jf the ways to instill a love for animals.
+
                                     </p>
                                 </div>
                             </div>
@@ -261,15 +269,10 @@
                                     </div>
                                 </div>
                                 <div class="testimotionals-card-content">
-                                    <p>Online zoo is one jf the ways to instill a love for animals.The best online zoo
+                                    <p> Online zoo is one jf the ways to instill a love for animals.The best online zoo
                                         I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one
                                         jf the ways to instill a love for animals.The best online zoo I’ve met. My son
                                         delighted very much ljves to watch gouillas.<br>
-                                        The best online zoo I’ve met. My son delighted very much ljves to watch
-                                        gouillas. Online zoo is one jf the ways to instill a love for animals.The best
-                                        online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online
-                                        zoo is one jf the ways to instill a love for animals.
-
                                         The best online zoo I’ve met. My son delighted very much ljves to watch
                                         gouillas. Online zoo is one jf the ways to instill a love for animals.The best
                                         online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online
@@ -296,18 +299,14 @@
                                     </div>
                                 </div>
                                 <div class="testimotionals-card-content">
-                                    <p>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas.
-                                        Online zoo is one jf the ways to instill a love for animals.The best online zoo
-                                        I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one
-                                        jf the ways to instill a love for animals.<br>
-                                        The best online zoo I’ve met. My son delighted very much ljves to watch
-                                        gouillas. Online zoo is one jf the ways to instill a love for animals.The best
-                                        online zoo I’ve met.<br>
+                                    <p> My son delighted very much ljves to watch gouillas. Online zoo is one jf the
+                                        ways to instill a love for animals.The best online zoo I’ve met. My son
+                                        delighted very much ljves to watch gouillas. Online zoo is one jf the ways to
+                                        instill a love for animals.The best online zoo I’ve met.<br>
                                         The best online zoo I’ve met. My son delighted very much ljves to watch
                                         gouillas. Online zoo is one jf the ways to instill a love for animals.The best
                                         online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online
                                         zoo is one jf the ways to instill a love for animals.
-
                                     </p>
                                 </div>
                             </div>
@@ -353,21 +352,22 @@
                     </div>
                 </div>
                 <div id="testimotionals-button-box">
-                    <a href="index.html" class="btn btn-squared">LEAVE FEEDBACK</a>
+                    <a href="index.html" class="btn btn-squared" id="feedback">LEAVE FEEDBACK</a>
                 </div>
-                <img id="testimotionals-right-img" src="../../assets/images/leaf_foto.png">
+                <div id="testimotionals-right-img"></div>
             </div>
         </section>
         <footer>
             <div id="footer-box">
                 <div id="footer-left-column">
                     <div id="header-logo">
-                        <a href="../../pages/main/index.html"><img src="../../assets/images/bamboo.svg" alt="Bamboo logo"
-                                id="header-logo-img">
+                        <a href="../../pages/main/index.html"><img src="../../assets/images/bamboo.svg"
+                                alt="Bamboo logo" id="header-logo-img">
                             <p id="logo-text">PetStory online</p>
                         </a>
                     </div>
-                    <a href="../../pages/donate/index.html" id="donate-button" class="btn btn-squared">DONATE FOR VOLUNTEERS</a>
+                    <a href="../../pages/donate/index.html" id="donate-button" class="btn btn-squared">DONATE FOR
+                        VOLUNTEERS</a>
                     <nav id="socials">
                         <a href="https://www.facebook.com/" class="social-link-box">
                             <img class="social-icon" src="../../assets/images/facebook.svg">

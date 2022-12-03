@@ -7,6 +7,10 @@ body {
     box-sizing: border-box;
 }
 
+.burger {
+    display: none;
+}
+
 header {
     color: white;
     padding: 14px 220px;
@@ -304,7 +308,7 @@ footer {
 
 #footer-copyright {
     position: absolute;
-    right: 218px;
+    right: 221px;
     bottom: 50px;
 }
 
@@ -335,14 +339,39 @@ footer {
         margin: 0 24px;
     }
 
+
+    #footer-box {
+        padding-left: 31px;
+        padding-right: 62px;
+    }
+
+    #footer-copyright {
+        right: 32px;
+        bottom: 48px;
+    }
+
+    .footer-copyright-text {
+        margin: 9px 0px 4px 0px;
+    }
+
+    .social-text {
+        margin-top: 3px;
+    }
+
+    #email {
+        padding: 6px 10px 10px 7px;
+        width: 217px;
+    }
+
+    .btn-submit {
+        width: 136px;
+    }
 }
 
 @media (max-width: 640px) {
     body {
         width: 640px;
         margin: 0;
-        font-family: 'Roboto', sans-serif;
-        box-sizing: border-box;
     }
 
     header {
@@ -375,7 +404,167 @@ footer {
 
 
     #header-copyright {
-        display:none;
+        display: none;
     }
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        margin-left: 535px;
+        margin-top: -2px;
+        row-gap: 2px;
+    }
+
+    .burger-span {
+        display: block;
+        height: 2px;
+        width: 19px;
+        background-color: white;
+    }
+
+
+    footer {
+        height: 282px;
+        ;
+    }
+
+    #footer-right-column {
+        display: none;
+    }
+
+    .social-text {
+        display: none;
+    }
+
+    #footer-copyright {
+        right: 20px;
+        bottom: 11px;
+    }
+
+    #donate-button {
+        margin-top: 34px;
+        margin-left: -1px;
+    }
+
+    #socials {
+        position: absolute;
+        right: 20px;
+        top: -34px;
+    }
+
+    .social-link-box {
+        margin-bottom: 20px;
+    }
+
+    footer #header-logo {
+        align-items: center;
+        display: flex;
+        position: relative;
+        width: 82px;
+        height: 52px;
+        border-radius: 2px;
+        text-align: center;
+        box-sizing: border-box;
+        border: 1px solid #FFFFFF;
+        border-radius: 2px;
+    }
+
+    footer #header-logo a {
+        text-decoration: none;
+    }
+
+    footer #header-logo-img {
+        position: absolute;
+        /* width: 7.03px; */
+        /* height: 20.98px; */
+        left: 9.13px;
+        top: 22.64px;
+        /* transform: matrix(-0.9, 0.52, 0.4, 0.88, 0, 0); */
+    }
+
+    footer #logo-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19.0145px;
+        line-height: 120%;
+        text-align: center;
+        margin: 0;
+        color: white;
+    }
+
+    #footer-left-column {
+        width: 298px;
+        margin-top: -31px;
+        margin-left: -10px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    body {
+        width: 320px;
+    }
+
+    #logo-text {
+        margin-left: -10px;
+    }
+
+    #header-logo-img {
+        left: -7px;
+    }
+
+    .burger {
+        margin-left: 235px;
+    }
+
+    footer {
+        height: 334px;
+        margin-top: -191px;
+    }
+
+    footer #header-logo {
+        width: 130px;
+        border-radius: 2px;
+        border: none;
+        margin-left: 75px;
+        margin-top: -2px;
+    }
+
+    footer #header-logo-img {
+        left: 73.13px;
+        top: 13.64px;
+    }
+
+    #socials {
+        margin: 0;
+        right: 63px;
+        display: flex;
+        top: 74px;
+        justify-content: space-between;
+        width: 195px;
+    }
+
+    #donate-button {
+        margin-top: 70px;
+        margin-left: -12px;
+    }
+
+    .btn-squared {
+        height: 53px;
+    }
+
+    #footer-copyright {
+        right: 11px;
+        bottom: 67px;
+    }
+
+    .footer-copyright-text {
+        font-size: 15px;
+    }
+
+    #footer-left-column {
+        width: 282px;
+
 
 }
