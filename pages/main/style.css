@@ -799,9 +799,11 @@ input {
 
     #testimotionals-right-img {
         bottom: -10px;
-        right: -41px;
+        right: 2px;
         height: 215px;
         background-size: contain;
+        background-position: right;
+        width: 156px;
     }
 
     #footer-center-column {
@@ -1359,6 +1361,12 @@ input {
     height: 94px;
     bottom: 162px;;
     background-image: url("../../assets/images/leaf_foto_mobile.png");
+}
+
+#footer-center-column {
+    left: 21px;
+    bottom: 21px;
+    width: 278px;
 }
 
 }
