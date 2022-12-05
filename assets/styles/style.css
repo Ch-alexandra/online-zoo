@@ -375,8 +375,15 @@ footer {
     }
 
     header {
+        z-index: 1;
+        position: fixed;
+        top: 0;
         height: 30px;
         padding: 2.29px 20.07px
+    }
+
+    main {
+        margin-top:33.6px;
     }
 
     #header-logo {
@@ -510,12 +517,16 @@ footer {
         margin-left: -10px;
     }
 
+    header {
+        padding: 2.29px 14.07px;
+    }
+
     #header-logo-img {
         left: -7px;
     }
 
     .burger {
-        margin-left: 235px;
+        margin-left: 230px;
     }
 
     footer {
