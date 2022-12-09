@@ -128,10 +128,10 @@ input {
     align-items: center;
 }
 
-#animals-grid {
+.animals-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px;
+    column-gap: 27px;
     row-gap: 20px;
     width: 1158px;
     height: 872px;
@@ -541,7 +541,20 @@ input {
     height: 236px;
 }
 
-@media (max-width: 1000px) {
+#scroll-box {
+    width: 1158px;
+    overflow: hidden;
+}
+
+#scroll {
+    transition: all 0.5s ease 0s;
+    margin-left: -100%;
+    width: 300%;
+    display: flex;
+    overflow: hidden;
+}
+
+@media (max-width: 1000px) {c
 
     #watch-online {
         position: static;
@@ -626,24 +639,27 @@ input {
     }
 
     #animals {
-        padding-bottom: 140px;
+        padding: 0 30px 140px 30px;
+
     }
 
     #animals-left-btn {
         left: 352px;
+        z-index: 5;
     }
 
     #animals-right-btn {
         right: 352px;
+        z-index: 5;
     }
 
     #animals-scroll-box {
         margin-top: 155px;
     }
 
-    #animals-grid {
+    .animals-grid {
         height: 801px;
-        column-gap: 28px;
+        column-gap: 27px;
         row-gap: 90px;
     }
 
@@ -884,7 +900,7 @@ input {
     }
 
     #animals {
-        padding-bottom: 100px;
+        padding: 0 20px 100px 20px;
         height: 872px;
     }
 
@@ -899,10 +915,15 @@ input {
         height: 284px;
     }
 
-    #animals-grid {
+    .animals-grid {
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 29.76px;
+        column-gap: 30px;
+        height: 756px;
         row-gap: 54px;
+    }
+
+    #scroll-box {
+        height: 756px;
     }
 
     .animal-card {
@@ -1188,8 +1209,16 @@ input {
     }
 
     #animals {
-        padding: 0 10px 60px 10px;
+        padding: 0 17px 60px 17px;
         height: 1462px;
+    }
+
+    #scroll-box {
+        height: 1388px;
+    }
+
+    #scroll {
+        height: 100%;
     }
 
     #animals-left-btn,
@@ -1197,8 +1226,7 @@ input {
         display: none;
     }
 
-    #animals-grid {
-        padding: 0 10px 0 10px;
+    .animals-grid {
         row-gap: 17px;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -1344,29 +1372,30 @@ input {
     }
 
 
-.testimotionals-card-title-box {
-    margin-left: 6.5px;
-}
+    .testimotionals-card-title-box {
+        margin-left: 6.5px;
+    }
 
-.testimotionals-card-content {
-    margin-top: 11px;
-}
+    .testimotionals-card-content {
+        margin-top: 11px;
+    }
 
-#testimotionals-button-box {
-    margin-top: 30px;
-}
+    #testimotionals-button-box {
+        margin-top: 30px;
+    }
 
-#testimotionals-right-img {
-    width: 51px;
-    height: 94px;
-    bottom: 162px;;
-    background-image: url("../../assets/images/leaf_foto_mobile.png");
-}
+    #testimotionals-right-img {
+        width: 51px;
+        height: 94px;
+        bottom: 162px;
+        ;
+        background-image: url("../../assets/images/leaf_foto_mobile.png");
+    }
 
-#footer-center-column {
-    left: 21px;
-    bottom: 21px;
-    width: 278px;
-}
+    #footer-center-column {
+        left: 21px;
+        bottom: 21px;
+        width: 278px;
+    }
 
 }
