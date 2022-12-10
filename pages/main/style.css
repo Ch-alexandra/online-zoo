@@ -1,0 +1,1490 @@
+input {
+    -webkit-appearance: none;
+}
+
+.color-darkgray {
+    color: #333B41;
+}
+
+#watch-online {
+    position: relative;
+    height: 700px;
+    background-image: url("../../assets/images/Giant\ Panda.png");
+    background-position: bottom;
+}
+
+#watch-online-circle {
+    border-radius: 50%;
+    display: inline-block;
+    width: 465px;
+    height: 465px;
+    left: 807px;
+    top: 12px;
+
+    position: absolute;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+
+#watch-online-text {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 500.31px;
+    height: 400px;
+    top: 86px;
+    left: 880px;
+    position: absolute;
+}
+
+#watch-online-text>h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 106.496px;
+    line-height: 75%;
+    text-align: center;
+}
+
+#watch-online-text #text-orange {
+    color: #FFEE2E;
+}
+
+#watch-online-button {
+    left: 983px;
+    top: 546px;
+    position: absolute;
+}
+
+#backstage {
+    position: relative;
+}
+
+#backstage-box {
+    display: flex;
+    height: 403px;
+    padding-left: 219px;
+    padding-right: 220px;
+    padding-top: 128px;
+    margin-top: 12px;
+}
+
+#backstage-text-box {
+    margin-left: 87px;
+    color: #333B41;
+}
+
+#backstage-text-box>h2 {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+}
+
+#backstage-description {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+#backstage-text-box>h3 {
+    margin-top: 54px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+#backstage-text {
+    margin-top: 34px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+#backstage-flower {
+    background-size: cover;
+    background-image: url("../../assets/images/flower_foto1.png");
+    position: absolute;
+    left: 1397px;
+    top: 0px;
+    width: 204px;
+    height: 613px;
+}
+
+#animals {
+    position: relative;
+    padding-left: 118px;
+    padding-right: 120px;
+    padding-bottom: 100px;
+}
+
+#animals-scroll-box {
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animals-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 27px;
+    row-gap: 20px;
+    width: 1158px;
+    height: 872px;
+}
+
+.animal-card {
+    position: relative;
+    color: black;
+    width: 366px;
+    height: 426px;
+    border: 1px solid #FE9013;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.animal-card-description {
+    background-color: white;
+    z-index: 5;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+}
+
+.animal-title {
+    margin: 8px 0 0 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    height: 22px;
+}
+
+.animal-description {
+    margin: 0px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    height: 22px;
+}
+
+.animal-card-image-box {
+    width: 366px;
+    height: 366px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.animal-card-image {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: all 300ms;
+    width: 366px;
+    height: 366px;
+    object-fit: cover;
+}
+
+.animal-card-image-box:hover .animal-card-image {
+    transform: scale(1.1);
+}
+
+.animal-card-image-box:hover .animal-card-hover-box {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.animal-card-hover-box {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms;
+    width: 366px;
+    height: 366px;
+    position: absolute;
+    z-index: 2;
+    background: rgb(0, 0, 0, 0.5);
+}
+
+.animal-card-hover-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    height: 22px;
+    color: white;
+}
+
+.animal-card-hover-description {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    height: 22px;
+    color: white;
+}
+
+.animal-card-description-image {
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    margin-right: 12px;
+}
+
+.animal-card-description-text {
+    margin-left: 16px;
+}
+
+#animal-btn-box {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#animals-left-img {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background-image: url(../../assets/images/palm_foto.png);
+    height: 460px;
+    width: 292px;
+}
+
+#animals-right-img {
+    height: 275px;
+    width: 368px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-image: url("../../assets/images/strelitzia 1.png");
+    background-size: contain;
+}
+
+#pick-friend {
+    padding-top: 69px;
+    position: relative;
+    top: 0px;
+    /* padding-top: 69px; */
+    height: 935px;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    opacity: 0.9;
+}
+
+#pick-friend-box {
+    display: flex;
+    flex-flow: column;
+    color: #333B41;
+    height: 835px;
+    margin: 0px 220px 100px 220px;
+    background: rgba(253, 253, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+}
+
+#pick-friend-title {
+    align-self: center;
+    width: 463px;
+    padding-top: 41px;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #FE9013;
+}
+
+#pick-friend-text-box {
+    margin-left: 99px;
+}
+
+#pick-friend-subtitle {
+    margin-bottom: 0px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+#pick-friend-covid {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    line-height: 130%;
+    font-weight: 500;
+}
+
+#pick-friend-description {
+    width: 863px;
+    margin: 13px 0 0 0;
+}
+
+#pick-friend-underline {
+    left: 186px;
+    top: 272px;
+    position: absolute;
+    display: inline-block;
+    width: 178px;
+    height: 1px;
+    background: #FE9013;
+}
+
+#pick-friend-how-it-works {
+    align-self: center;
+    margin: 1px 0 0 0;
+    width: 209px;
+    padding-top: 60px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+}
+
+#how-it-works-flow-box {
+    margin-top: 40px;
+    align-self: center;
+    justify-content: space-between;
+    display: flex;
+    height: 244px;
+    width: 764px;
+}
+
+.how-it-works-item-icon {
+    object-fit: scale-down;
+    height: 168px;
+    width: 168px;
+    border: 1px solid #FE9013;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.how-it-works-item-description {
+    margin: 25px 0 0 0;
+    /* color:#333B41; */
+    width: 168px;
+    height: 46px;
+}
+
+.how-it-works-arrow {
+    height: 35.08px;
+    width: 69px;
+    margin-top: 60px;
+    background-image: url("../../assets/images/how-it-works-arrow.svg");
+}
+
+#feed-friend-now {
+    margin-top: 60px;
+    margin-left: 4px;
+    align-self: center;
+}
+
+#testimotionals {
+    display: flex;
+    justify-content: center;
+    padding-top: 140px;
+    position: relative;
+    height: 779px;
+}
+
+#testimotionals-box {
+    width: 1160px;
+    display: flex;
+    flex-direction: column;
+}
+
+#testimotionals-title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    text-align: center;
+    margin: 0px;
+}
+
+#testimotionals-content-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 47px;
+    height: 391px;
+    overflow: hidden;
+}
+
+#testimonials-content-scroll{
+    display: grid;
+    grid-template-rows: 1fr;
+    column-gap: 29px;
+    grid-auto-flow: column;
+    transition: all ease 0.5s;
+}
+.testimotionals-card-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 391px;
+    width: 268px;
+    background-image: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
+        linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+.testimotionals-card {
+    height: 387px;
+    width: 264px;
+    color: #333B41;
+    background: #F1F3F2;
+    border-radius: 20px;
+}
+
+.testimotionals-card-box {
+    padding: 15px 12px 19px 14px;
+}
+
+.testimotionals-card-header-box {
+    display: flex;
+    height: 37px;
+}
+
+.testimotionals-card-title-box {
+    margin-left: 10px;
+}
+
+.testimotionals-card-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: black;
+    margin: 0px;
+}
+
+.testimotionals-card-title-description {
+    display: flex;
+    flex-direction: row;
+    color: #BDBDBD;
+}
+
+.testimotionals-card-title-description>p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    margin: 0 6px 0 0;
+}
+
+.testimotionals-card-content {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    height: 308px;
+    overflow: hidden;
+    color: #767474;
+}
+
+.testimotionals-card-content>p {
+    margin: 0px;
+}
+
+#testimotionals-progressbar-box {
+    margin-top: 21px;
+    display: flex;
+    justify-content: center;
+}
+
+#testimotionals-progressbar-border {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 599px;
+    height: 8px;
+    background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
+        linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+#testimotionals-progressbar-border {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 599px;
+    height: 8px;
+    background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
+        linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+#testimotionals-progressbar {
+    background: #F5F7F6;
+    border-radius: 5px;
+    display: block;
+    width: 598px;
+    height: 7px;
+    z-index: 0;
+}
+
+#testimotionals-progressbar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    width: 12.5%;
+    border-radius: 5px;
+    height: 6px;
+    background-color: #FE9013;
+}
+
+#testimotionals-button-box {
+    margin-top: 32px;
+}
+
+#testimotionals-right-img {
+    position: absolute;
+    right: 0px;
+    background-image: url("../../assets/images/leaf_foto.png");
+    background-size: cover;
+    width: 199px;
+    bottom: 0;
+    height: 236px;
+}
+
+#scroll-box {
+    width: 1158px;
+    overflow: hidden;
+}
+
+#scroll {
+    transition: all 0.5s ease 0s;
+    margin-left: -100%;
+    width: 300%;
+    display: flex;
+    overflow: hidden;
+}
+
+.popup{
+    background-color: rgb(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 98;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimotionals-popup-card-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 391px;
+    width: 268px;
+    background-image: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
+        linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+.testimotionals-popup-card {
+    height: 387px;
+    width: 264px;
+    color: #333B41;
+    background: #F1F3F2;
+    border-radius: 20px;
+}
+
+.testimotionals-popup-card-box {
+    padding: 15px 12px 19px 14px;
+}
+
+.testimotionals-popup-card-header-box {
+    display: flex;
+    height: 37px;
+}
+
+.testimotionals-popup-card-title-box {
+    margin-left: 10px;
+}
+
+.testimotionals-popup-card-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: black;
+    margin: 0px;
+}
+
+.testimotionals-popup-card-title-description {
+    display: flex;
+    flex-direction: row;
+    color: #BDBDBD;
+}
+
+.testimotionals-popup-card-title-description>p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    margin: 0 6px 0 0;
+}
+
+.testimotionals-popup-card-content {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    height: 308px;
+    overflow: hidden;
+    color: #767474;
+}
+
+.testimotionals-popup-card-content>p {
+    margin: 0px;
+}
+@media (max-width: 1000px) {c
+
+    #watch-online {
+        position: static;
+        height: 504px;
+        background-image: url("../../assets/images/Panda1000.png");
+    }
+
+    #watch-online-text {
+        top: 122.8px;
+        left: 514px;
+        height: 320px;
+        width: 400.25px;
+    }
+
+    #watch-online-text>h2 {
+        margin: 0px;
+        font-weight: 700;
+        font-size: 85px;
+        line-height: 75%;
+    }
+
+    #watch-online-button {
+        left: 567px;
+        top: 483px;
+    }
+
+    #watch-online-circle {
+        z-index: 0;
+        top: 69px;
+        left: 456px;
+        width: 367px;
+        height: 367px;
+    }
+
+    #backstage-flower {
+        display: none;
+    }
+
+    #backstage-box {
+        padding: 98px 30px 0px 30px;
+    }
+
+    #granddad {
+        height: 408px;
+        width: 455px;
+        object-fit: cover;
+    }
+
+    #backstage-text-box {
+        margin-left: 31px;
+    }
+
+    #backstage-text-box h2 {
+        margin-top: -10px;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 120%;
+    }
+
+    #backstage-description {
+        margin: 22px 0px 0px 0px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+    }
+
+    #backstage-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .btn {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .btn-round {
+        position: absolute;
+        margin: 0;
+    }
+
+    #animals {
+        padding: 0 30px 140px 30px;
+
+    }
+
+    #animals-left-btn {
+        left: 352px;
+        z-index: 5;
+    }
+
+    #animals-right-btn {
+        right: 352px;
+        z-index: 5;
+    }
+
+    #animals-scroll-box {
+        margin-top: 155px;
+    }
+
+    .animals-grid {
+        height: 801px;
+        column-gap: 27px;
+        row-gap: 90px;
+    }
+
+    .animal-card {
+        width: 295px;
+        height: 354px;
+    }
+
+    .animal-card-image,
+    .animal-card-image-box,
+    .animal-card-hover-box {
+        width: 295px;
+        height: 295px;
+    }
+
+    #animals-left-img {
+        height: 202px;
+        background-image: url("../../assets/images/palm_foto_small.png");
+        width: 194px;
+    }
+
+    #animals-right-img {
+        height: 180px;
+        width: 241px;
+    }
+
+    #choose-favorite-button {
+        margin-top: 2px;
+        margin-left: 5px;
+    }
+
+    #pick-friend {
+        height: 846px;
+        padding-top: 30px;
+    }
+
+    #pick-friend-box {
+        height: 796px;
+        margin: 0 30px 0 30px;
+    }
+
+    #pick-friend-title {
+        padding-top: 30px;
+    }
+
+    #pick-friend-text-box {
+        margin-left: 49px;
+    }
+
+    #pick-friend-subtitle {
+        margin-top: 20px;
+    }
+
+    #pick-friend-covid {
+        width: 813px;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130%;
+    }
+
+    #pick-friend-description {
+        width: 823px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        margin-top: 10px;
+        ;
+    }
+
+    #pick-friend-underline {
+        left: 200px;
+        top: 250px;
+    }
+
+    #pick-friend-how-it-works {
+        padding-top: 36px;
+    }
+
+    #how-it-works-flow-box {
+        margin-top: 40px;
+    }
+
+    .how-it-works-arrow {
+        margin-top: 63px;
+    }
+
+
+    .how-it-works-item-description {
+        margin: 27px 0 0 0;
+    }
+
+    #feed-friend-now {
+        margin-top: 72px;
+        margin-left: 2px;
+    }
+
+
+    #testimotionals {
+        height: 842px;
+        padding-top: 0;
+    }
+
+    #testimotionals-box {
+        margin-top: 100px;
+        width: 940px;
+
+    }
+
+    #testimotionals-content-box {
+        margin-top: 30px;
+    }
+
+    .testimotionals-card-border {
+        width: 293px;
+    }
+
+    .testimotionals-card {
+        width: 289px;
+    }
+
+    .testimotionals-card-box {
+        padding: 13px 22px 19px 14px;
+    }
+
+    .testimotionals-card-content {
+        height: 290px;
+    }
+
+    #testimotionals-progressbar {
+        width: 389px;
+    }
+
+    #testimotionals-progressbar-box {
+        margin-left: -10px;
+    }
+
+    #testimotionals-progressbar::-webkit-slider-thumb {
+        width: 11.111%;
+    }
+
+    #testimotionals-progressbar-border {
+        width: 390px;
+    }
+
+    #testimotionals-button-box {
+        margin-top: 52px;
+    }
+
+    #testimotionals-right-img {
+        bottom: -10px;
+        right: 2px;
+        height: 215px;
+        background-size: contain;
+        background-position: right;
+        width: 156px;
+    }
+
+    #footer-center-column {
+        left: 321px;
+        width: 332px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    #watch-online {
+        position: relative;
+        height: 339px;
+        background-image: url("../../assets/images/Giant\ Panda_tablet.png");
+        background-position: bottom;
+    }
+
+    #watch-online-circle {
+        width: 237.6px;
+        height: 237.6px;
+        left: calc(50% - 237.6px/2 + 130.44px);
+        top: 10.23px;
+    }
+
+    #watch-online-text {
+        width: 255.64px;
+        height: 204.38px;
+        left: 368px;
+        top: 49px;
+    }
+
+    #watch-online-text>h2 {
+        font-size: 54.2894px;
+    }
+
+    #watch-online-button {
+        left: 21px;
+        top: 245px;
+    }
+
+    #granddad {
+        display: none;
+    }
+
+    #backstage-text-box {
+        margin-left: 0px;
+        width: 495px;
+    }
+
+    #backstage-text-box>h3 {
+        margin-top: 30px;
+    }
+
+
+    #backstage-box {
+        padding: 58px 0 0 24px;
+    }
+
+    #backstage-description {
+        padding-right: 25px;
+        margin: 21.5px 0 0 -4px;
+    }
+
+    #backstage-text {
+        margin-top: 19.5px;
+        margin-left: -4px;
+    }
+
+    #backstage-flower {
+        display: block;
+        right: 0;
+        left: unset;
+        width: 132px;
+        height: 484px;
+        top: -17px;
+        object-fit: cover;
+        object-position: left;
+    }
+
+    #animals {
+        padding: 0 20px 100px 20px;
+        height: 872px;
+    }
+
+    #animals-scroll-box {
+        margin-top: 32px;
+    }
+
+    .animal-card-image,
+    .animal-card-image-box,
+    .animal-card-hover-box {
+        width: 284px;
+        height: 284px;
+    }
+
+    .animals-grid {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 30px;
+        height: 756px;
+        row-gap: 54px;
+    }
+
+    #scroll-box {
+        height: 756px;
+    }
+
+    .animal-card {
+        width: 285px;
+        height: 332px;
+    }
+
+    .animal-card:nth-child(n+5) {
+        display: none;
+    }
+
+    .animal-card-description-image {
+        margin: auto 5px auto auto;
+        height: 30px;
+    }
+
+    .animal-card-description {
+        height: 46.76px;
+    }
+
+    .animal-card-description-text {
+        margin-left: 12.47px;
+    }
+
+    .animal-title {
+        height: 17px;
+        margin: 8px 0 0 0;
+        font-size: 12px;
+        letter-spacing: 0.3px;
+    }
+
+    .animal-description {
+        height: 14px;
+        margin: -1px 0 0 0;
+        font-size: 11px;
+        letter-spacing: 0.3px;
+    }
+
+    #animals-left-btn,
+    #animals-right-btn {
+        top: 343px;
+    }
+
+    #animals-left-btn {
+        left: 243px;
+    }
+
+    #animals-right-btn {
+        right: 243px;
+    }
+
+    #animal-btn-box {
+        margin-top: 60px;
+    }
+
+    #animals-right-img {
+        width: 173px;
+        height: 128px;
+    }
+
+    #animals-left-img {
+        left: -60px;
+    }
+
+    #choose-favorite-button {
+        margin-top: -43px;
+    }
+
+    #pick-friend {
+        height: 761px;
+        padding-top: 20px;
+    }
+
+    #pick-friend-box {
+        margin: 0;
+        padding: 0 20px 0 20px;
+    }
+
+    #pick-friend-title {
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 120%;
+        padding-top: 10px;
+    }
+
+    #pick-friend-text-box {
+        margin: 0;
+    }
+
+    #pick-friend-subtitle {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 120%;
+    }
+
+    #pick-friend-covid,
+    #pick-friend-description {
+        width: unset;
+    }
+
+    #pick-friend-covid {
+        margin-top: 19px;
+        width: unset;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130%;
+    }
+
+    #pick-friend-underline {
+        top: 245px;
+        left: 376px;
+    }
+
+    #pick-friend-how-it-works {
+        padding-top: 31px;
+    }
+
+    #how-it-works-flow-box {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .how-it-works-arrow {
+        top: 327px;
+        z-index: 1;
+        width: 89px;
+        height: 29px;
+        position: absolute;
+        margin: 0;
+        background-image: url("../../assets/images/how-it-works-arrow_tablet.svg");
+    }
+
+    .how-it-works-item-box {
+        z-index: 0;
+        width: 168px;
+    }
+
+    .how-it-works-item-box:nth-child(5) {
+        margin-right: 12px;
+    }
+
+    .how-it-works-arrow:nth-child(2) {
+        left: 157px;
+    }
+
+    .how-it-works-arrow:nth-child(4) {
+        left: 365px;
+    }
+
+    #feed-friend-now {
+        margin-top: 40px;
+    }
+
+    #testimotionals {
+        height: 588px;
+        padding-bottom: 80px;
+    }
+
+    #testimotionals-box {
+        margin: 60px 20px 0 20px;
+    }
+
+    #testimotionals-title {
+        margin-left: -4px;
+    }
+
+    #testimotionals-content-box {
+        height: 357px;
+        flex-direction: column;
+    }
+
+    .testimotionals-card-border {
+        width: 600px;
+        height: 109px;
+    }
+
+    .testimotionals-card {
+        width: 596px;
+        height: 105px;
+    }
+
+    .testimotionals-card-content {
+        height: 38px;
+        margin-left: 6px;
+    }
+
+    .testimotionals-card-box {
+        padding: 13px 17px 0 10px;
+    }
+
+    #testimotionals-progressbar-box {
+        display: none;
+    }
+
+    #testimotionals-button-box {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    #testimotionals-button {
+        width: 240px;
+    }
+
+    #testimotionals-right-img {
+        width: 92px;
+        height: 133px;
+        bottom: -19px;
+        background-image: url("../../assets/images/leaf_foto.png");
+        background-size: cover;
+        right: 0px;
+    }
+
+    #testimonials-content-scroll{
+        grid-auto-flow: row;
+        row-gap: 15px;
+    }
+
+    #feedback {
+        width: 240px;
+    }
+
+    #footer-center-column {
+        left: 21px;
+        bottom: 11px;
+        width: 299px;
+    }
+}
+
+@media (max-width:320px) {
+    #watch-online {
+        background-image: url("../../assets/images/Giant\ Panda_mobile.png");
+        height: 186.96px;
+    }
+
+    #watch-online-circle {
+        left: 162.6px;
+        top: 22.17px;
+        width: 119.09px;
+        height: 119.09px;
+    }
+
+    #watch-online-text {
+        top: 43px;
+        left: 181px;
+        height: 102.44px;
+        width: 128.13px;
+    }
+
+    #watch-online-button {
+        top: 207px;
+        left: 13px;
+    }
+
+    #watch-online-text>h2 {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    #backstage-flower {
+        right: 0px;
+        top: 27px;
+        width: 32px;
+        height: 217px;
+    }
+
+    #backstage-box {
+        padding: 103px 0 0 10px;
+    }
+
+    #backstage-description {
+        margin: 10px -1px 11px 2px;
+    }
+
+    #backstage-text-box>h3 {
+        margin: 20.5px 0 0 2px;
+    }
+
+    #backstage-text-box>h2 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+    }
+
+    #backstage-text {
+        margin: 9px 10px 0 0;
+        line-height: 138%;
+    }
+
+    #animals {
+        padding: 0 17px 60px 17px;
+        height: 1462px;
+    }
+
+    #scroll-box {
+        height: 1388px;
+    }
+
+    #scroll {
+        height: 100%;
+    }
+
+    #animals-left-btn,
+    #animals-right-btn {
+        display: none;
+    }
+
+    .animals-grid {
+        row-gap: 17px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #animals-scroll-box {
+        margin-top: 14px;
+    }
+
+    #animal-btn-box {
+        margin-top: 65px;
+        margin-left: -4px;
+    }
+
+    #animals-left-img {
+        height: 72px;
+        background-size: contain;
+        width: 135px;
+        left: -80px;
+    }
+
+    #animals-right-img {
+        height: 60px;
+        background-position: left bottom;
+        width: 72px;
+        bottom: -4px;
+        right: 0px;
+        background-size: cover;
+        height: 70px;
+    }
+
+    #pick-friend {
+        height: unset;
+        padding: 20px 10px 20px 10px;
+    }
+
+    #pick-friend-box {
+        height: unset;
+        padding: 0 10px 39px 10px;
+    }
+
+    #pick-friend-title {
+        width: unset;
+        padding-top: 20px;
+        font-size: 24px;
+    }
+
+    #pick-friend-subtitle {
+        text-align: center;
+        margin: 11px 0 0 -3px;
+        font-size: 18px;
+    }
+
+    #pick-friend-covid,
+    #pick-friend-description,
+    #pick-friend-underline {
+        display: none;
+    }
+
+    #pick-friend-how-it-works {
+        padding-top: 20px;
+        font-size: 24px;
+        width: unset;
+    }
+
+    #how-it-works-flow-box {
+        height: unset;
+        align-items: center;
+        margin-top: 18px;
+        flex-direction: column;
+    }
+
+    .how-it-works-item-description {
+        height: unset;
+        margin-top: 7px;
+    }
+
+    .how-it-works-item-box {
+        padding-bottom: 42px;
+    }
+
+
+    .how-it-works-item-box:nth-child(3) {
+        padding-bottom: 28px;
+    }
+
+    .how-it-works-item-box:nth-child(5) {
+        margin-right: unset;
+        padding-bottom: 0;
+    }
+
+    .how-it-works-arrow {
+        transform: rotate(85deg);
+    }
+
+    .how-it-works-arrow:nth-child(2) {
+        top: 386px;
+        left: 206px;
+    }
+
+    .how-it-works-arrow:nth-child(4) {
+        top: 635px;
+        left: 206px;
+    }
+
+    #feed-friend-now {
+        margin-top: 44px;
+        margin-left: 0;
+    }
+
+    #testimotionals {
+        padding-bottom: 60px;
+        height: 713px;
+    }
+
+    #testimotionals-box {
+        width: unset;
+        margin: 30px 0 0 0;
+    }
+
+    #testimotionals-content-box {
+        margin-top: 18px;
+        width: unset;
+    }
+
+    #testimotionals-title {
+        margin-left: 0;
+        font-size: 24px;
+    }
+
+    .testimotionals-card-box {
+        padding: 0;
+    }
+
+  
+
+    .testimotionals-card-border {
+        width: 299px;
+    }
+
+    .testimotionals-card {
+        padding: 9px 25px 10px 10px;
+        width: 261px;
+        height: 88px;
+        border-radius: 18px;
+    }
+
+
+    .testimotionals-card-title-box {
+        margin-left: 6.5px;
+    }
+
+    .testimotionals-card-content {
+        margin-top: 11px;
+    }
+
+    #testimotionals-button-box {
+        margin-top: 30px;
+    }
+
+    #testimotionals-right-img {
+        width: 51px;
+        height: 94px;
+        bottom: 162px;
+        ;
+        background-image: url("../../assets/images/leaf_foto_mobile.png");
+    }
+
+    #footer-center-column {
+        left: 21px;
+        bottom: 21px;
+        width: 278px;
+    }
+
+}
