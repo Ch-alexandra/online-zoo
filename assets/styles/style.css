@@ -329,6 +329,21 @@ footer {
     top: 0;
 }
 
+.burger-cross {
+    background-image: url("../../assets/images/x.svg");
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+}
+
+.popup-cross {
+    background-image: url("../../assets/images/x_black.svg");
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    margin-left: auto;
+}
+
 @media (max-width: 1000px) {
     body {
         width: 1000px;
@@ -543,13 +558,6 @@ footer {
         margin-bottom: 15px;
         margin-top: 0px;
         font-weight: 500;  
-    }
-
-    .burger-cross {
-        background-image: url("../../assets/images/x.svg");
-        width: 15px;
-        height: 15px;
-        background-size: contain;
     }
 
     .burger-open{
